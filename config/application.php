@@ -74,7 +74,7 @@ return [
     'GzipCompressionLevel' => 9, // zlib compression level. (1~9)
     'OutputCleanHTML' => true, // Use this if you have Tidy installed to clean your HTML output when serving pages.
     'ShowCopyright' => true, // Whether or not to show the copyright footer.
-    'ShowRenderDetails' => true, // Shows the "page rendered in X seconds" and "number of queries executed: X" in the default theme.
+    'ShowRenderDetails' => false, // Shows the "page rendered in X seconds" and "number of queries executed: X" in the default theme.
     'UseCleanUrls' => true, // Set to true if you're running Apache and it supports mod_rewrite and .htaccess files.
     'DebugMode' => false, // Set to false to minimize technical details from being output by Flux. WARNING: DO NOT USE THIS OPTION ON A PUBLICALLY-ACCESSIBLE CP.
     'UseCaptcha' => true, // Use CAPTCHA image for account registration to prevent automated account creations. (Requires GD2/FreeType2)
