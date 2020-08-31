@@ -252,10 +252,6 @@ return [
             'ServiceDeskLabel' => ['module' => 'servicedesk'],
             'LogoutTitle' => ['module' => 'account', 'action' => 'logout'],
         ],
-        'DonationsLabel' => [
-            'PurchaseLabel' => ['module' => 'purchase'],
-            'DonateLabel' => ['module' => 'donate'],
-        ],
         'InformationLabel' => [
             'ServerInfoLabel' => ['module' => 'server', 'action' => 'info'],
             'ServerStatusLabel' => ['module' => 'server', 'action' => 'status'],
