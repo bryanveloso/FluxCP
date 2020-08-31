@@ -94,7 +94,7 @@ return [
     'MoneyDecimalPlaces' => 2, // (Visual) Number of decimal places to display in amount.
     'MoneyThousandsSymbol' => ',', // (Visual) Thousandths place separator (a period in European currencies).
     'MoneyDecimalSymbol' => '.', // (Visual) Decimal separator (a comma in European currencies).
-    'AcceptDonations' => true, // Whether or not to accept donations.
+    'AcceptDonations' => false, // Whether or not to accept donations.
     'PayPalIpnUrl' => 'www.paypal.com', // The ipnpb.paypal.com and ipnpb.sandbox.paypal.com endpoints only accept HTTPS connections. If you currently use www.paypal.com, you should move to ipnpb.paypal.com when you update your code to use HTTPS.
     'PayPalBusinessEmail' => 'admin@localhost', // Enter the e-mail under which you have registered your business account.
     'PayPalReceiverEmails' => [
