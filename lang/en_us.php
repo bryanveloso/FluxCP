@@ -189,7 +189,7 @@ return [
     'AccountPassConfirmLabel' => 'Confirm Password',
     'AccountEmailLabel' => 'E-mail Address',
     'AccountEmailLabel2' => 'Confirm E-mail Address',
-    'AccountGenderLabel' => 'Gender',
+    'AccountGenderLabel' => 'In-Game Gender',
     'AccountBirthdateLabel' => 'Birthdate',
     'AccountSecurityLabel' => 'Security Code',
     'AccountCreateButton' => 'Create My Account',
