@@ -33,7 +33,7 @@ return array(
 	'SingleMatchRedirect'		=> true,					// Whether or not to redirect to view action from index page if only one match is returned (and action is allowed).
 	'SingleMatchRedirectItem'	=> false,					// Same as above, for item module.
 	'SingleMatchRedirectMobs'	=> false,					// Same as above, for monster module.
-	'UsernameAllowedChars'		=> 'a-zA-Z0-9_',			// PCRE Format Pattern. default: 'a-zA-Z0-9_' (alphanumeric and underscore)
+	'UsernameAllowedChars'		=> 'a-zA-Z0-9_-',			// PCRE Format Pattern. default: 'a-zA-Z0-9_' (alphanumeric and underscore)
 															// WARNING: This string isn't escaped so be careful which chars you use!
 															// PCRE Pattern Ref: http://php.net/manual/en/pcre.pattern.php
 	'MinUsernameLength'			=> 4,						// Minimum username length.
@@ -155,7 +155,7 @@ return array(
 	'BlacksmithRankingLimit'	=> 20,						//
 	'HomunRankingLimit'			=> 20,						//
 	'MVPRankingLimit'			=> 20,						//
-	
+
 	'RankingHideGroupLevel'		=> AccountLevel::LOWGM,		//
 	'InfoHideZenyGroupLevel'	=> AccountLevel::LOWGM,		// Minimum group level of account to hide zeny from in server information page.
 
@@ -196,8 +196,8 @@ return array(
 
 	'AdminMenuNewStyle'			=> true,					// Use new-style admin menu;  Applies to 'default' theme.
 	'EnablePeakDisplay'			=> true,					// Display Peak User count on Server Status page.
-	
-	
+
+
 // News Options
 	'CMSNewsOnHomepage'			=> true,					// Display News on Home Page instead of "You've Just Installed FluxCP" message?
 	'CMSNewsType'				=> 1,						// Type = source of news feed:
@@ -290,7 +290,7 @@ return array(
 			//'Economy'		=> array('module' => 'economy')
 		)
 	),
-	
+
 	// Sub-menu items that are displayed for any action belonging to a
 	// particular module. The format it simple.
 	'SubMenuItems'	=> array(
@@ -400,7 +400,7 @@ return array(
 			'index'			=> 'Buyers',
 		),
 	),
-	
+
 	'AllowMD5PasswordSearch'		=> false,
 	'ReallyAllowMD5PasswordSearch'	=> false, // Are you POSITIVELY sure?
 
