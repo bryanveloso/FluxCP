@@ -4,7 +4,7 @@ return array(
 	// specify multiple server groups (however they should share the same login
 	// server whilst they are allowed to have multiple char/map pairs).
 	array(
-		'ServerName'     => 'FluxRO',
+		'ServerName'     => 'Renova',
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
@@ -13,7 +13,7 @@ return array(
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
-			'Hostname'   => '127.0.0.1',
+			'Hostname'   => 'database',
 			'Username'   => 'ragnarok',
 			'Password'   => 'ragnarok',
 			'Database'   => 'ragnarok',
@@ -34,7 +34,7 @@ return array(
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
-			'Hostname'   => '127.0.0.1',
+			'Hostname'   => 'database',
 			'Username'   => 'ragnarok',
 			'Password'   => 'ragnarok',
 			'Database'   => 'ragnarok',
@@ -43,7 +43,7 @@ return array(
 		),
 		// Login server configuration.
 		'LoginServer'    => array(
-			'Address'  => '127.0.0.1',
+			'Address'  => 'login',
 			'Port'     => 6900,
 			'UseMD5'   => false,
 			'NoCase'   => true, // rA account case-sensitivity; Default: Case-INsensitive (true).
@@ -52,42 +52,42 @@ return array(
 		),
 		'CharMapServers' => array(
 			array(
-				'ServerName'      => 'FluxRO',
+				'ServerName'      => 'Renova',
 				'Renewal'         => true,
 				'MaxCharSlots'    => 9,
 				'DateTimezone'    => null, // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
 				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
 				'ExpRates' => array(
-					'Base'        => 100, // Rate at which (base) exp is given
-					'Job'         => 100, // Rate at which job exp is given
-					'Mvp'         => 100  // MVP bonus exp rate
+					'Base'        => 1000, // Rate at which (base) exp is given
+					'Job'         => 1000, // Rate at which job exp is given
+					'Mvp'         => 1000  // MVP bonus exp rate
 				),
 				'DropRates' => array(
 					// The rate the common items (in the ETC tab, besides card) are dropped
-					'Common'      => 100,
-					'CommonBoss'  => 100,
+					'Common'      => 1000,
+					'CommonBoss'  => 1000,
 					// The rate healing items (that restore HP or SP) are dropped
-					'Heal'        => 100,
-					'HealBoss'    => 100,
+					'Heal'        => 1000,
+					'HealBoss'    => 1000,
 					// The rate usable items (in the item tab other then healing items) are dropped
-					'Useable'     => 100,
-					'UseableBoss' => 100,
+					'Useable'     => 1000,
+					'UseableBoss' => 1000,
 					// The rate at which equipment is dropped
-					'Equip'       => 100,
-					'EquipBoss'   => 100,
+					'Equip'       => 1000,
+					'EquipBoss'   => 1000,
 					// The rate at which cards are dropped
-					'Card'        => 100,
-					'CardBoss'    => 100,
+					'Card'        => 1000,
+					'CardBoss'    => 1000,
 					// The rate adjustment for the MVP items that the MVP gets directly in their inventory
-					'MvpItem'     => 100
+					'MvpItem'     => 1000
 				),
 				'CharServer'      => array(
-					'Address'     => '127.0.0.1',
+					'Address'     => 'char',
 					'Port'        => 6121
 				),
 				'MapServer'       => array(
-					'Address'     => '127.0.0.1',
+					'Address'     => 'map',
 					'Port'        => 5121
 				),
 				// -- WoE days and times --
