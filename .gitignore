@@ -18,3 +18,10 @@
 # Caches
 /data/tmp/*.php
 /data/tmp/*.cache
+
+# Development
+.vscode
+.prettierrc
+node_modules
+package.json
+yarn.lock
