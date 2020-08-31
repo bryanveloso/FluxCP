@@ -79,9 +79,9 @@ return [
     'DebugMode' => false, // Set to false to minimize technical details from being output by Flux. WARNING: DO NOT USE THIS OPTION ON A PUBLICALLY-ACCESSIBLE CP.
     'UseCaptcha' => true, // Use CAPTCHA image for account registration to prevent automated account creations. (Requires GD2/FreeType2)
     'UseLoginCaptcha' => false, // Use CAPTCHA image for account logins. (Requires GD2/FreeType2)
-    'EnableReCaptcha' => false, // Enables the use of reCAPTCHA instead of Flux's native GD2 library (http://www.google.com/recaptcha)
-    'ReCaptchaPublicKey' => '...', // This is your reCAPTCHA public key [REQUIRED FOR RECAPTCHA] (sign up at http://www.google.com/recaptcha)
-    'ReCaptchaPrivateKey' => '...', // This is your reCAPTCHA private key [REQUIRED FOR RECAPTCHA] (sign up at http://www.google.com/recaptcha)
+    'EnableReCaptcha' => true, // Enables the use of reCAPTCHA instead of Flux's native GD2 library (http://www.google.com/recaptcha)
+    'ReCaptchaPublicKey' => '6LfdjsUZAAAAAFg8hXUflfPveiXjaNM-hqGkijq3', // This is your reCAPTCHA public key [REQUIRED FOR RECAPTCHA] (sign up at http://www.google.com/recaptcha)
+    'ReCaptchaPrivateKey' => '6LfQjsUZAAAAADU5osNZm_cKtKdZWQhBeGL_bT94', // This is your reCAPTCHA private key [REQUIRED FOR RECAPTCHA] (sign up at http://www.google.com/recaptcha)
     'ReCaptchaTheme' => 'light', // ReCaptcha theme to use (Value: dark or light) (see: https://developers.google.com/recaptcha/docs/display#render_param)
     'DisplaySinglePages' => true, // Whether or not to display paging for single page results.
     'ForwardYears' => 15, // (Visual) The number of years to display ahead of the current year in date inputs.
