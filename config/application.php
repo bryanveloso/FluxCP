@@ -271,10 +271,6 @@ return [
             'ItemDatabaseLabel' => ['module' => 'item'],
             'MobDatabaseLabel' => ['module' => 'monster'],
         ],
-        'SocialLabel' => [
-            'JoinUsInFacebookLabel' => ['exturl' => 'https://www.facebook.com/<change_me>'],
-            'RateUsOnRMSLabel' => ['exturl' => '<link_to_RMS>'],
-        ],
         'Service Desk' => [
             'ServiceDeskLabel' => ['module' => 'servicedesk', 'action' => 'staffindex'],
         ],
