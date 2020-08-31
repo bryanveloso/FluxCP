@@ -1,4 +1,5 @@
 <?php if (!defined('FLUX_ROOT')) exit; ?>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
