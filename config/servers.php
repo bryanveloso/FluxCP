@@ -4,7 +4,7 @@ return array(
 	// specify multiple server groups (however they should share the same login
 	// server whilst they are allowed to have multiple char/map pairs).
 	array(
-		'ServerName'     => 'Renova',
+		'ServerName'     => 'Enyxsis',
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
@@ -52,7 +52,7 @@ return array(
 		),
 		'CharMapServers' => array(
 			array(
-				'ServerName'      => 'Renova',
+				'ServerName'      => 'Enyxsis',
 				'Renewal'         => true,
 				'MaxCharSlots'    => 9,
 				'DateTimezone'    => null, // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
